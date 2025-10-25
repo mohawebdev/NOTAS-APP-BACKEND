@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://wondrous-bombolone-5c82e4.netlify.app/']
+    origin: ['http://localhost:5173', 'https://wondrous-bombolone-5c82e4.netlify.app']
 }));
 
 app.use(express.json());
